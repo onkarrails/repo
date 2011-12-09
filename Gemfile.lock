@@ -30,7 +30,6 @@ GEM
       activesupport (= 3.1.0)
     activesupport (3.1.0)
       multi_json (~> 1.0)
-    ansi (1.4.1)
     arel (2.2.1)
     bcrypt-ruby (3.0.1-x86-mingw32)
     builder (3.0.0)
@@ -79,6 +78,7 @@ GEM
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
     mime-types (1.17.2)
+    minitest (1.6.0)
     multi_json (1.0.4)
     nokogiri (1.5.0-x86-mingw32)
     polyglot (0.3.3)
@@ -145,8 +145,6 @@ GEM
     treetop (1.4.10)
       polyglot
       polyglot (>= 0.3.1)
-    turn (0.8.3)
-      ansi
     tzinfo (0.3.31)
     uglifier (1.1.0)
       execjs (>= 0.3.0)
@@ -163,9 +161,9 @@ DEPENDENCIES
   cucumber-rails
   database_cleaner
   jquery-rails
+  minitest
   rails (= 3.1.0)
   rspec-rails (~> 2.5)
   sass-rails (~> 3.1.0)
   sqlite3
-  turn
   uglifier
